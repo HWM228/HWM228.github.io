@@ -1,0 +1,589 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: "Oswald";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    width: 150px;
+    height: 2px;
+    background: rgb(231, 218, 33);
+}
+
+.header {
+    height: 100vh;
+    background: url(../img/howwedobg.jpg) center center;
+}
+
+.header .menu-top {
+    background: rgba(0, 0, 0, .5) !important;
+}
+
+.header .menu-top .navbar {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(231, 218, 33);
+}
+
+.nav-item:nth-child(1) {
+    list-style: none;
+}
+
+.nav-item {
+    color: rgb(231, 218, 33);
+    list-style: square;
+    margin-right: 20px;
+}
+
+.content {
+    height: 80vh;
+    display: flex;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 700px;
+    color: #fff;
+}
+
+.content .yellow {
+    padding: 10px 30px;
+    background: rgb(231, 218, 33);
+    margin-top: 30px;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.services h3 {
+    font-size: 20px;
+    color: #515151;
+}
+
+.services h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.services p {
+    font-weight: 300;
+}
+
+.services .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(231, 218, 33);
+    line-height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: .6s;
+}
+
+.services .circle .fa {
+    font-size: 50px;
+    color: #fff;
+    transition: .6s;
+}
+
+.services h4 {
+    font-weight: 800;
+    color: grey;
+}
+
+.services .item {
+    transform: .6s;
+    color: grey;
+}
+
+.services .item:hover .circle {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(231, 218, 33);
+    background: #fff;
+}
+
+.services .item:hover .fa {
+    color: rgb(231, 218, 33);
+}
+
+.how {
+    padding: 50px 0;
+    background: url(../img/howwedobg.jpg) center center;
+    background-attachment: fixed;
+}
+
+.how h2 {
+    color: rgb(231, 218, 33);
+    font-weight: 800;
+}
+
+.how p {
+    color: #fff;
+    font-weight: 300;
+}
+
+.how p:hover {
+    color: #fff;
+}
+
+.how .fa {
+    color: rgb(231, 218, 33);
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    transition: 0.6s;
+}
+
+.how h4 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.how .item:hover .fa {
+    transform: rotate(360deg)
+}
+
+.portfolio {
+    padding: 50px;
+}
+
+.portfolio h3 {
+    font-size: 20px;
+    color: #515151;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.portfolio p {
+    font-weight: 300;
+    color: #515151;
+}
+
+.portfolio p {
+    font-weight: 300;
+}
+
+.portfolio .nav-tabs {
+    border: none;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.portfolio .nav-tabs .nav-link {
+    border: none;
+    color: #000;
+}
+
+.portfolio .nav-tabs .nav-link.active {
+    color: rgb(231, 218, 33);
+}
+
+.portfolio .nav-tabs .nav-link:hover {
+    color: rgb(231, 218, 33);
+}
+
+.portfolio .tab-content h5 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.portfolio .tab-content .btn {
+    font-size: 20px;
+    margin-top: 30px;
+    background: rgb(231, 218, 33);
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.portfolio .row-15 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.portfolio .arrow {
+    font-size: 20px;
+    margin-top: 30px;
+    background: rgb(231, 218, 33);
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.portfolio:hover .arrow {
+    animation: jump 1s alternate infinite;
+}
+
+.award {
+    background: #000;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.award h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.award .item {
+    border: 2px solid rgb(231, 218, 33);
+    transition: .6s;
+}
+
+.award .item .number {
+    padding: 20px 0;
+}
+
+.award .item .number h4 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.award .item .number p {
+    text-transform: uppercase;
+    color: rgb(231, 218, 33);
+}
+
+.award .item:hover {
+    background: rgb(231, 218, 33);
+    border-radius: 30px;
+}
+
+.award .item:hover h4 {
+    color: #000;
+    transition: .6s;
+}
+
+.award .item:hover p {
+    color: #000;
+    transition: .6s;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about h3 {
+    font-size: 20px;
+    color: #515151;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.about p {
+    font-weight: 300;
+}
+
+.about .about-us .about1 {
+    margin-right: 20px;
+}
+
+.about .about-us:hover .about1 .circle {
+    animation: rotate 1000s alternate infinite;
+}
+
+.about .about-us .about1 .circle {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background: rgb(231, 218, 33);
+    border-radius: 50%;
+    text-align: center;
+    transition: .6s;
+}
+
+.about .about-us .about1 .circle .fa {
+    color: #fff;
+    font-size: 25px;
+}
+
+.about .about-us .about2 h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.about .about-us {
+    margin-top: 50px;
+}
+
+.skill {
+    padding: 50px 0;
+    background: #131a1d;
+    color: #fff;
+}
+
+.skill h3 {
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.skill h4 {
+    font-style: 20px;
+    color: rgb(231, 218, 33);
+    font-weight: 300;
+}
+
+.skill .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #fff;
+    line-height: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: rgb(231, 218, 33);
+    font-weight: 300;
+}
+
+.skill .item:hover .circle {
+    transform: rotate(360deg);
+    border: 2px solid rgb(231, 218, 33);
+    transition: .6s;
+}
+
+.client {
+    padding: 50px 0;
+}
+
+.client h3 {
+    font-size: 20px;
+    color: #515151;
+}
+
+.client h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.client p {
+    font-weight: 300;
+}
+
+.quote {
+    padding: 50px 0;
+    background: #000;
+    color: #fff;
+}
+
+.quote p {
+    margin-bottom: 50px;
+}
+
+.quote h5 {
+    font-size: 20px;
+    text-transform: none;
+}
+
+.quote .carousel-control-next {
+    display: none;
+}
+
+.quote .carousel-control-prev {
+    display: none;
+}
+
+.quote .carousel-indicators li {
+    width: 5px;
+    height: 5px;
+    background: #fff;
+}
+
+.quote .carousel-indicators li.active {
+    background: rgb(231, 218, 33);
+}
+
+.contacts {
+    padding: 50px 0;
+}
+
+.contacts .item .fa {
+    animation: contact 1s alternate infinite;
+}
+
+.contacts h3 {
+    font-size: 20px;
+    color: #515151;
+}
+
+.contacts h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.contacts p {
+    font-weight: 300;
+}
+
+.contacts .item .fa {
+    font-size: 35px;
+    color: rgb(231, 218, 33);
+    margin-bottom: 20px;
+}
+
+.contacts .item h4 {
+    color: #515151;
+    margin-bottom: 20px;
+}
+
+.send {
+    padding: 50px 0;
+    background: #000;
+    color: #fff;
+}
+
+.send h2 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.send .form-control {
+    margin-top: 50px;
+    border-radius: 0;
+    background: #131a1d;
+}
+
+.send textarea {
+    margin-top: 20px !important;
+}
+
+.send .btn {
+    font-size: 17px;
+    margin-top: 30px;
+    background: rgb(231, 218, 33);
+    color: #000;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer {
+    padding: 20px 0;
+    background: #131316;
+    color: #fff;
+}
+
+.footer .yellow {
+    color: rgb(231, 218, 33);
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: rgb(231, 218, 33);
+}
+
+@media(max-width: 991px) {
+    .menu-top {
+        position: absolute;
+        width: 100%;
+    }
+
+    .hesder .nav-item:nth-child(1) {
+        list-style: square;
+    }
+
+    .portfoio .nav-tabs .nav-link {
+        font-size: 15px;
+    }
+
+    .portfoio .nav-tabs .nav-item {
+        margin: auto;
+    }
+
+    .portfolio .portfolio-img img {
+        width: 100%;
+    }
+}
+
+.btn {
+    transition: .6s;
+}
+
+.btn:hover {
+    transform: rotateY(360deg);
+    cursor: wait !important;
+}
+
+@media(max-width: 727px) {
+    .header-content h1 {
+        font-size: 46;
+    }
+}
+
+@media(max-width: 520px) {
+    .portfolio .nav-tabs .nav-item {
+        margin: auto;
+        list-style: none;
+    }
+}
+
+@media(max-width: 575px) {
+    .send {
+        padding: 50px 15px;
+    }
+}
+
+@keyframes jump {
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(999999999999999deg);
+    }
+}
+
+@keyframes contact {
+    0%{
+        transform: rotate(-30deg)
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
